@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class UpdateEmployeeButton implements MenuItem {
 
-    private EmployeeDao employeeDao = new EmployeeDao();
+    private final EmployeeDao employeeDao = new EmployeeDao();
     @Override
     public void run() {
         Employee e = updateEmployee();

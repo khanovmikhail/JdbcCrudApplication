@@ -8,7 +8,7 @@ import com.khanovmikhail.repository.EmployeeDao;
 import java.util.Scanner;
 
 public class SaveNewEmployeeButton implements MenuItem {
-    private EmployeeDao employeeDao = new EmployeeDao();
+    private final EmployeeDao employeeDao = new EmployeeDao();
 
     @Override
     public void run() {
