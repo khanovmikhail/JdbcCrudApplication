@@ -1,4 +1,4 @@
-package com.khanovmikhail.dao;
+package com.khanovmikhail.repository;
 
 import java.util.List;
 

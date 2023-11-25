@@ -1,7 +1,5 @@
 package com.khanovmikhail.entity;
 
-import com.khanovmikhail.dao.PositionDao;
-
 public class Employee {
 
     private int id;
